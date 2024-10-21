@@ -71,12 +71,11 @@
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
-<p>This is a basic example which shows you how to solve a common problem:</p>
+<p>First you have to get the numeric ID of a location</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="http://www.michaellydeamore.com/populaR/">populaR</a></span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># First you have to get the numeric ID of a location</span></span>
 <span><span class="fu"><a href="reference/get_id.html">get_id</a></span><span class="op">(</span><span class="st">"Australia"</span>, type <span class="op">=</span> <span class="st">"locations"</span><span class="op">)</span></span>
+<span><span class="co">#&gt; Iterating ■■■ 5% | ETA: 29sIterating ■■■■■■■■■■■■■■■■■■■■■ 67% | ETA: 1s</span></span>
 <span><span class="co">#&gt; # A tibble: 5 × 6</span></span>
 <span><span class="co">#&gt;      id name                                                 iso3  iso2  longitude latitude</span></span>
 <span><span class="co">#&gt;   &lt;int&gt; &lt;chr&gt;                                                &lt;chr&gt; &lt;chr&gt;     &lt;dbl&gt;    &lt;dbl&gt;</span></span>
